@@ -10,7 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install homebrew/cask
 
 # Install Apps
-brew install --cask iterm2 sublime-text google-chrome firefox docker notion slack zoom discord spotify messenger visual-studio-code telegram-desktop pdf-expert anaconda rectangle
+brew install --cask iterm2 sublime-text google-chrome firefox docker notion slack zoom discord spotify messenger visual-studio-code telegram-desktop pdf-expert anaconda rectangle welly
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
