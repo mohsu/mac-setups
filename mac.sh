@@ -7,10 +7,10 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Homebrew-cask
-brew install homebrew/cask
+brew tap homebrew/cask
 
 # Install Apps
-brew install --cask iterm2 sublime-text google-chrome firefox docker notion slack zoom discord spotify messenger visual-studio-code telegram-desktop pdf-expert anaconda rectangle welly
+brew install --cask iterm2 sublime-text google-chrome firefox docker notion slack zoom discord spotify messenger visual-studio-code telegram-desktop pdf-expert anaconda rectangle welly timche-gmail-desktop itsycal
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
